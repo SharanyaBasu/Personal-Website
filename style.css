@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body
 {
     margin: 0;
@@ -89,6 +93,12 @@ body
 {
     color: #808080;
 }
+
+.nav-link:hover
+{
+    color: black;
+}
+
 
 .about .container
 {
@@ -268,7 +278,29 @@ body
     background: #f0ededa6;
 }
 
+.volunteer
+{
+    opacity: 0.1; 
+    transition: opacity 1.5s ease; 
+}
 
+.volunteer:hover
+{
+    opacity: 1;
+}
+
+#pictures img
+{
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.fa-solid.fa-medal
+{
+    font-size: 300px;
+    text-align: center;
+    margin-top: 80px;
+}
 
 
 
